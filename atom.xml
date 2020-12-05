@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://fehead-studio.github.io</id>
-    <title>fehead-studio</title>
-    <updated>2020-09-12T10:17:15.796Z</updated>
+    <id>https://Nightnessss.github.io</id>
+    <title>weirwei&apos;s Garage</title>
+    <updated>2020-12-05T08:54:58.984Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://fehead-studio.github.io"/>
-    <link rel="self" href="https://fehead-studio.github.io/atom.xml"/>
-    <subtitle>fehead官网</subtitle>
-    <logo>https://fehead-studio.github.io/images/avatar.png</logo>
-    <icon>https://fehead-studio.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, fehead-studio</rights>
+    <link rel="alternate" href="https://Nightnessss.github.io"/>
+    <link rel="self" href="https://Nightnessss.github.io/atom.xml"/>
+    <subtitle>月亮很亮，亮也没用，没用也亮。</subtitle>
+    <logo>https://Nightnessss.github.io/images/avatar.png</logo>
+    <icon>https://Nightnessss.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, weirwei&apos;s Garage</rights>
     <entry>
         <title type="html"><![CDATA[fehead基础建设]]></title>
-        <id>https://fehead-studio.github.io/post/fehead-ji-chu-jian-she/</id>
-        <link href="https://fehead-studio.github.io/post/fehead-ji-chu-jian-she/">
+        <id>https://Nightnessss.github.io/post/fehead-ji-chu-jian-she/</id>
+        <link href="https://Nightnessss.github.io/post/fehead-ji-chu-jian-she/">
         </link>
         <updated>2020-09-12T10:11:12.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>绪论<br>
-来fehead的时候，fehead是一穷二白，快要走了，发现也是一穷二白，有种什么都没做的感觉<br>
+        <summary type="html"><![CDATA[<blockquote>
+<p>来fehead的时候，fehead是一穷二白，快要走了，发现也是一穷二白，有种什么都没做的感觉<br>
 结合实习经历，想整一个fehead开发学习的基建，留点东西下来，让后生可以不断完善，不至于刚进来的时候有种“假大空”的感觉(这是我进fehead几个月后的主观感受)<br>
 最重要的是文档和开发流程<br>
 文档最重要：记录开发学习的内容，可以是一种总结，此为其一。留下文档可助后生快速入门，减少学习和指导成本，此为其二。来日需要对项目二次开发或者重构追加功能时，提供指导，此为其三。<br>
 开发流程次之：规范的开发流程和代码规范，可以提高共同开发的效率和减少阅读代码的难度。</p>
 </blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>来fehead的时候，fehead是一穷二白，快要走了，发现也是一穷二白，有种什么都没做的感觉<br>
+结合实习经历，想整一个fehead开发学习的基建，留点东西下来，让后生可以不断完善，不至于刚进来的时候有种“假大空”的感觉(这是我进fehead几个月后的主观感受)<br>
+最重要的是文档和开发流程<br>
+文档最重要：记录开发学习的内容，可以是一种总结，此为其一。留下文档可助后生快速入门，减少学习和指导成本，此为其二。来日需要对项目二次开发或者重构追加功能时，提供指导，此为其三。<br>
+开发流程次之：规范的开发流程和代码规范，可以提高共同开发的效率和减少阅读代码的难度。</p>
+</blockquote>
+<!-- more -->
 <h1 id="git">git</h1>
 <h2 id="搭建git仓库">搭建git仓库</h2>
 <p>加入<code>fehead-studio</code>组织</p>
@@ -76,58 +84,64 @@ chore: 其他修改, 比如构建流程, 依赖管理
     </entry>
     <entry>
         <title type="html"><![CDATA[共同开发规范]]></title>
-        <id>https://fehead-studio.github.io/post/gong-tong-kai-fa-gui-fan/</id>
-        <link href="https://fehead-studio.github.io/post/gong-tong-kai-fa-gui-fan/">
+        <id>https://Nightnessss.github.io/post/gong-tong-kai-fa-gui-fan/</id>
+        <link href="https://Nightnessss.github.io/post/gong-tong-kai-fa-gui-fan/">
         </link>
         <updated>2020-09-12T10:01:56.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>记一下项目开发的规范，统一开发规范可以有效提高共同开发效率和代码质量<br>
+本文档图片的 winsoullin 理解为团队正式发布的仓库，Nightnessss 理解为个人仓库</p>
+</blockquote>
+]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <p>记一下项目开发的规范，统一开发规范可以有效提高共同开发效率和代码质量<br>
 本文档图片的 winsoullin 理解为团队正式发布的仓库，Nightnessss 理解为个人仓库</p>
 </blockquote>
+<!-- more -->
 <h2 id="fork原项目">Fork原项目</h2>
 <p>进入目标仓库，<code>fork</code>项目到自己的仓库<br>
-<img src="https://fehead-studio.github.io/post-images/github_ecology/fork_0.png" alt="" loading="lazy"></p>
+<img src="https://Nightnessss.github.io/post-images/github_ecology/fork_0.png" alt="" loading="lazy"></p>
 <p><code>fork</code>完后可以再自己的<code>GitHub</code>中找到这个仓库<br>
-<img src="https://fehead-studio.github.io/post-images/github_ecology/fork_1.png" alt="" loading="lazy"></p>
+<img src="https://Nightnessss.github.io/post-images/github_ecology/fork_1.png" alt="" loading="lazy"></p>
 <h2 id="创建你的主题分支">创建你的主题分支</h2>
 <ol>
 <li>
 <p>将自己<code>GitHub</code>的仓库<code>clone</code>到本地<br>
-<img src="https://fehead-studio.github.io/post-images/github_ecology/idea_clone_0.png" alt="" loading="lazy"><br>
-<img src="https://fehead-studio.github.io/post-images/github_ecology/idea_clone_1.png" alt="" loading="lazy"></p>
+<img src="https://Nightnessss.github.io/post-images/github_ecology/idea_clone_0.png" alt="" loading="lazy"><br>
+<img src="https://Nightnessss.github.io/post-images/github_ecology/idea_clone_1.png" alt="" loading="lazy"></p>
 </li>
 <li>
 <p>创建新分支，分支命名尽量与改动需求相关<br>
-<img src="https://fehead-studio.github.io/post-images/github_ecology/branch_0.png" alt="" loading="lazy"><br>
+<img src="https://Nightnessss.github.io/post-images/github_ecology/branch_0.png" alt="" loading="lazy"><br>
 创建完后可以在<code>local branches</code>看到<br>
-<img src="https://fehead-studio.github.io/post-images/github_ecology/branch_1.png" alt="" loading="lazy"></p>
+<img src="https://Nightnessss.github.io/post-images/github_ecology/branch_1.png" alt="" loading="lazy"></p>
 </li>
 </ol>
 <h2 id="代码上传">代码上传</h2>
 <ol>
 <li>在新建的分支下进行开发</li>
 <li>开发完后提交<code>commit</code><br>
-<img src="https://fehead-studio.github.io/post-images/github_ecology/commit.png" alt="" loading="lazy"></li>
+<img src="https://Nightnessss.github.io/post-images/github_ecology/commit.png" alt="" loading="lazy"></li>
 <li><code>push</code>代码，注意远程仓库为个人仓库，新建与本地分支同名的远程分支<br>
-<img src="https://fehead-studio.github.io/post-images/github_ecology/push.png" alt="" loading="lazy"></li>
+<img src="https://Nightnessss.github.io/post-images/github_ecology/push.png" alt="" loading="lazy"></li>
 </ol>
 <h2 id="发送pull-request">发送Pull Request</h2>
 <ol>
 <li>在个人仓库选中刚刚提交的分支，点击<code>pull request</code><br>
-<img src="https://fehead-studio.github.io/post-images/github_ecology/pull_request_0.png" alt="" loading="lazy"></li>
+<img src="https://Nightnessss.github.io/post-images/github_ecology/pull_request_0.png" alt="" loading="lazy"></li>
 <li>创建<code>pull request</code>，注意目标仓库分支和源仓库分支<br>
-<img src="https://fehead-studio.github.io/post-images/github_ecology/pull_request_1.png" alt="" loading="lazy"></li>
+<img src="https://Nightnessss.github.io/post-images/github_ecology/pull_request_1.png" alt="" loading="lazy"></li>
 <li>提交完后可以在<code>pull request</code>查看信息<br>
-<img src="https://fehead-studio.github.io/post-images/github_ecology/pull_request_3.png" alt="" loading="lazy"><br>
-<img src="https://fehead-studio.github.io/post-images/github_ecology/pull_request_2.png" alt="" loading="lazy"></li>
+<img src="https://Nightnessss.github.io/post-images/github_ecology/pull_request_3.png" alt="" loading="lazy"><br>
+<img src="https://Nightnessss.github.io/post-images/github_ecology/pull_request_2.png" alt="" loading="lazy"></li>
 <li>为这个<code>pull request</code>指定<code>reviewers</code>和<code>assignees</code>，或者直接把连接发给某人，帮你检查合并代码<br>
-<img src="https://fehead-studio.github.io/post-images/github_ecology/pull_request_4.png" alt="" loading="lazy"></li>
+<img src="https://Nightnessss.github.io/post-images/github_ecology/pull_request_4.png" alt="" loading="lazy"></li>
 <li>之前都是开发者视角，现在开始是审阅人的视角，审阅人可以在修改的代码段添加评论<br>
-<img src="https://fehead-studio.github.io/post-images/github_ecology/code_review_0.png" alt="" loading="lazy"></li>
+<img src="https://Nightnessss.github.io/post-images/github_ecology/code_review_0.png" alt="" loading="lazy"></li>
 <li>如果代码没问题，可以<code>approve</code>(只有<code>reviewers</code>有<code>approve</code>权限)，并评论<code>LGTM</code>(Look Good To Me[狗头])<br>
-<img src="https://fehead-studio.github.io/post-images/github_ecology/code_review_1.png" alt="" loading="lazy"></li>
+<img src="https://Nightnessss.github.io/post-images/github_ecology/code_review_1.png" alt="" loading="lazy"></li>
 <li>仓库管理员<code>merge pull request</code><br>
-<img src="https://fehead-studio.github.io/post-images/github_ecology/pull_request_5.png" alt="" loading="lazy"></li>
+<img src="https://Nightnessss.github.io/post-images/github_ecology/pull_request_5.png" alt="" loading="lazy"></li>
 </ol>
 <hr>
 <p>参考文章: https://blog.csdn.net/yxys01/article/details/78316649</p>
